@@ -5,7 +5,7 @@ Build the image: In the top-level of the repository run
 
 `$ docker build -f ./docker/Dockerfile -t="docker-base" .`
 
-Check the Dockerfile to see what happens when you build.  To run the image you built in a container:
+Read the comments in the Dockerfile to see what happens when you build.  To run the image you built in a container:
 
 `$ docker run -it --rm docker-base`
 
